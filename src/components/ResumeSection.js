@@ -53,7 +53,7 @@ const ResumeSection = () => {
             </div>
             {/* resume items */}
             <div className="resume-items">
-              <div className="resume-item content-box">
+              <div className="resume-item content-box active">
                 <div className="date">2020 - Present</div>
                 <div className="name">Zero To Mastery Academy</div>
                 <div className="text">

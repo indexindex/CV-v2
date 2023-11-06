@@ -77,7 +77,7 @@ const ItemIsotope = () => {
         {/* <div className="box-item f-content">
           <div className="image">
             <a href="#popup-1" className="has-popup-media hover-animated">
-              <img src="images/ahhaa.jpg" className="wp-post-image" alt="project" />
+              <img src="images/ahhaa.png" className="wp-post-image" alt="project" />
               <span className="info circle">
                 <span className="centrize full-width">
                   <span className="vertical-center">
@@ -95,7 +95,7 @@ const ItemIsotope = () => {
             <div className="content">
               <div
                 className="image"
-                style={{ backgroundImage: "url(images/ahhaa.jpg)" }}
+                style={{ backgroundImage: "url(images/ahhaa.png)" }}
               />
               <div className="desc single-post-text">
                 <div className="category">Project</div>

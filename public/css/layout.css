@@ -1505,6 +1505,10 @@
   line-height: 1;
 }
 
+.skills.list.tech ul li .name:before {
+  content: "\f005";
+}
+
 .skills.list ul li .progress {
   display: none;
 }

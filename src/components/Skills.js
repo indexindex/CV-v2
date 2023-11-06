@@ -1,234 +1,6 @@
 import { useEffect } from "react";
 import { createSkillsDot, dotResize } from "../utils";
 
-export const CodingSkills = () => {
-  return (
-    <div className="section skills" id="section-skills-code">
-      <div className="content">
-        {/* title */}
-        <div className="title">
-          <div className="title_inner">Coding Skills</div>
-        </div>
-        {/* skills items */}
-        <div className="skills circles content-box">
-          <ul>
-          <li>
-              <div className="name">HTML</div>
-              <div className="progress p90">
-                {" "}
-                <div className="percentage">
-                  <span className="percent">90%</span>
-                </div>
-                <span>90%</span>
-                <div className="slice">
-                  <div className="bar"></div>
-                  <div className="fill"></div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="name">CSS</div>
-              <div className="progress p90">
-                {" "}
-                <div className="percentage">
-                  <span className="percent">90%</span>
-                </div>
-                <span>90%</span>
-                <div className="slice">
-                  <div className="bar"></div>
-                  <div className="fill"></div>
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div className="name">JavaScript (ES6+)</div>
-              <div className="progress p85">
-                {" "}
-                <div className="percentage">
-                  <span className="percent">85%</span>
-                </div>
-                <span>85%</span>
-                <div className="slice">
-                  <div className="bar"></div>
-                  <div className="fill"></div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="name">React.js</div>
-              <div className="progress p40">
-                {" "}
-                <div className="percentage">
-                  <span className="percent">40%</span>
-                </div>
-                <span>40%</span>
-                <div className="slice">
-                  <div className="bar"></div>
-                  <div className="fill"></div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="name">jQuery.js</div>
-              <div className="progress p80">
-                {" "}
-                <div className="percentage">
-                  <span className="percent">80%</span>
-                </div>
-                <span>80%</span>
-                <div className="slice">
-                  <div className="bar"></div>
-                  <div className="fill"></div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="name">TypeScript.js</div>
-              <div className="progress p20">
-                {" "}
-                <div className="percentage">
-                  <span className="percent">20%</span>
-                </div>
-                <span>20%</span>
-                <div className="slice">
-                  <div className="bar"></div>
-                  <div className="fill"></div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="name">SCSS</div>
-              <div className="progress p85">
-                {" "}
-                <div className="percentage">
-                  <span className="percent">85%</span>
-                </div>
-                <span>85%</span>
-                <div className="slice">
-                  <div className="bar"></div>
-                  <div className="fill"></div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="name">Bootstrap</div>
-              <div className="progress p70">
-                {" "}
-                <div className="percentage">
-                  <span className="percent">70%</span>
-                </div>
-                <span>70%</span>
-                <div className="slice">
-                  <div className="bar"></div>
-                  <div className="fill"></div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="name">Zurb Foundation</div>
-              <div className="progress p70">
-                {" "}
-                <div className="percentage">
-                  <span className="percent">70%</span>
-                </div>
-                <span>70%</span>
-                <div className="slice">
-                  <div className="bar"></div>
-                  <div className="fill"></div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="name">Node.js</div>
-              <div className="progress p30">
-                {" "}
-                <div className="percentage">
-                  <span className="percent">30%</span>
-                </div>
-                <span>30%</span>
-                <div className="slice">
-                  <div className="bar"></div>
-                  <div className="fill"></div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="name">Express.js</div>
-              <div className="progress p30">
-                {" "}
-                <div className="percentage">
-                  <span className="percent">30%</span>
-                </div>
-                <span>30%</span>
-                <div className="slice">
-                  <div className="bar"></div>
-                  <div className="fill"></div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="name">MongoDB</div>
-              <div className="progress p25">
-                {" "}
-                <div className="percentage">
-                  <span className="percent">25</span>
-                </div>
-                <span>25%</span>
-                <div className="slice">
-                  <div className="bar"></div>
-                  <div className="fill"></div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="name">Firebase</div>
-              <div className="progress p35">
-                {" "}
-                <div className="percentage">
-                  <span className="percent">35%</span>
-                </div>
-                <span>35%</span>
-                <div className="slice">
-                  <div className="bar"></div>
-                  <div className="fill"></div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="name">WordPress</div>
-              <div className="progress p65">
-                {" "}
-                <div className="percentage">
-                  <span className="percent">65%</span>
-                </div>
-                <span>65%</span>
-                <div className="slice">
-                  <div className="bar"></div>
-                  <div className="fill"></div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="name">Webpack</div>
-              <div className="progress p95">
-                {" "}
-                <div className="percentage">
-                  <span className="percent">95%</span>
-                </div>
-                <span>95%</span>
-                <div className="slice">
-                  <div className="bar"></div>
-                  <div className="fill"></div>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  );
-};
 export const KnowledgeSkills = () => {
   return (
     <div className="section skills" id="section-skills-know">
@@ -255,6 +27,41 @@ export const KnowledgeSkills = () => {
             </li>
             <li>
               <div className="name">Familiarity with Git version control for collaborative development</div>
+            </li>
+          </ul>
+        </div>
+        <br/><br/>
+        <div className="title">
+          <div className="title_inner">Everyday Tech</div>
+        </div>
+        <div className="skills list content-box tech">
+          <ul>
+            <li>
+              <div className="name"><strong>Front-End Dev:</strong> HTML, CSS(SCSS), JS(ES6+), React.js, TypeScript, Redux, Redux Toolkit, Axios</div>
+            </li>
+            <li>
+              <div className="name"><strong>Front-End Dev Tools:</strong> NPM for package management, PageSpeed Insights, Browser Dev Tools: (Chrome, Firefox, Edge, Safari)</div>
+            </li>
+            <li>
+              <div className="name"><strong>Back-End Dev:</strong> Node.js(Express.js), MongoDB(mongoose.js)</div>
+            </li>
+            <li>
+              <div className="name"><strong>Back-End Dev Tools:</strong> MongoDB Compass for DB management, Postman for API testing</div>
+            </li>
+            <li>
+              <div className="name"><strong>Version Control:</strong> Git, GitHub, SourceTree, Bitbucket</div>
+            </li>
+            <li>
+              <div className="name"><strong>Design Tools:</strong> Figma, Adobe Photoshop, Adobe Illustrator, Adobe XD, Affinity Designer</div>
+            </li>
+            <li>
+              <div className="name"><strong>Project Management:</strong> Trello</div>
+            </li>
+            <li>
+              <div className="name"><strong>IDE:</strong> Visual Studio Code</div>
+            </li>
+            <li>
+              <div className="name"><strong>OS:</strong> Windows 11, macOS</div>
             </li>
           </ul>
         </div>

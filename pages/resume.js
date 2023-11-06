@@ -4,9 +4,8 @@ import Interests from "../src/components/Interests";
 import { ImagePageBanner } from "../src/components/PageBanner";
 import ResumeSection from "../src/components/ResumeSection";
 import {
-  CodingSkills,
   KnowledgeSkills,
-  LanguagesSkills,
+  LanguagesSkills
 } from "../src/components/Skills";
 import Layout from "../src/layout/Layout";
 const ResumeImage = () => {
@@ -18,7 +17,6 @@ const ResumeImage = () => {
       <ImagePageBanner pageName={"Resume"} typingData={typingAnimation} />
       <About />
       <ResumeSection />
-      {/* <CodingSkills /> */}
       <KnowledgeSkills />
       <LanguagesSkills />
       <Interests />

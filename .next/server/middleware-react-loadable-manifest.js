@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST={"projects.js -> ../src/components/ItemIsotope":{id:2141,files:["static/chunks/391.d8269ff9468ed8b3.js","static/chunks/141.fa1fdcf7e436ec2a.js"]}};
